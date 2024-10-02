@@ -1,0 +1,141 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.navbar-left h1 {
+  margin: 0;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right span {
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.navbar-right button {
+  width: 8rem;
+  background-color: #ee2323;
+}
+
+.navbar-right button:hover {
+  background-color: #c22424;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 20px;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.sort-container label {
+  margin-right: 10px;
+}
+
+.sort-container select {
+  padding: 5px;
+}
+
+.add-note-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.btn-add {
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 150px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.btn-add:hover {
+  background-color: #0056b3;
+}
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 17px; 
+}
+.note-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px; 
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.note-image {
+  max-width: 100px;
+  max-height: 100px; 
+  object-fit: cover; 
+  margin: 0 auto; 
+  display: block; 
+}
+.note-no-image{
+  max-width: 125px;
+  max-height: 100px; 
+  object-fit: cover; 
+  margin: 0 auto; 
+  display: block; 
+}
+.note-actions {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.note-actions button{
+  width: 90px;
+}
+
+.edit {
+  background-color: #e3f115;
+  color: black;
+}
+
+.edit:hover {
+  background-color: #cad61b;
+}
+
+.delete {
+  background-color: #d80c0c;
+}
+
+.delete:hover {
+  background-color: #bd1313;
+}
+
+.note-card p  {
+  text-align: left;
+  color: #333;
+}
+
+p strong {
+  color: #175ca5;
+}
+
+.btn-modal{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
